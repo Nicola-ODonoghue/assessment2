@@ -5,7 +5,8 @@ from django.contrib.auth import views as auth_views
 from django.contrib.auth.forms import PasswordResetForm, SetPasswordForm
 from django.contrib.auth.models import User
 from django.core import mail
-from django.urls import reverse, resolve
+from django.urls import reverse
+from django.urls import resolve
 from django.test import TestCase
 
 
